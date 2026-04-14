@@ -1,6 +1,6 @@
 import hashlib
 
-def get_kgrams(text, k=5):
+def get_kgrams(text, k=2):
     words = text.split()
     return [" ".join(words[i:i+k]) for i in range(len(words)-k+1)]
 
