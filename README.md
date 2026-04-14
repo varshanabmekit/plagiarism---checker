@@ -11,4 +11,9 @@ This project demonstrates string processing, hashing, and similarity detection.
 
 python main.py
 
-3. Enter two texts to compare
+3. Enter two texts to compare 
+## 🚀 Features
+- Detects similarity between two texts
+- Uses hashing (SHA-256)
+- Fast and simple implementation
+- Works on any text input
